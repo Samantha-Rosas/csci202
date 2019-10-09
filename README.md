@@ -2,4 +2,5 @@
 # (classpage.html)
 # (Self-portrait/index.html)
 
+https://samantha-rosas.github.io/csci202/classpage.html
 
