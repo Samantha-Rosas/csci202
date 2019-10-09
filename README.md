@@ -1,5 +1,5 @@
 # csci202
 # (classpage.html)
-# (Self-portrait)
+# (Self-portrait/index.html)
 
 
