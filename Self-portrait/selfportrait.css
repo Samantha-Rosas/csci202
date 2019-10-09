@@ -1,0 +1,82 @@
+body {
+background-color: #0084ff;
+font-family: sans-serif;
+}
+
+head {
+float: auto;
+margin-left: auto;
+margin-right: auto;
+}
+
+main {
+    padding-bottom: 20px;
+}
+
+h1 {
+    padding-left: 80px;
+}
+
+h2 {
+    padding-left: 40px;
+    padding-bottom: 0px;
+}
+
+p {
+    padding-top: 0px;
+    padding-left: 40px;
+}
+
+#wrapper {
+    background-color: #9ea9ff;
+    width:80%;
+    min-width: 900px;
+    max-width:1280px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 8px #413c3c
+}
+
+nav{
+    padding-top: 5px;
+    font-size: 1.3em;
+    float: none;
+    width: auto;
+    margin: 10px;
+}
+
+nav li{
+    display: inline-block;
+}
+
+nav a{
+    font-weight: bold;
+    padding: 4.5em;
+    width: 8em;
+    border-style: none;
+    text-decoration: none;
+
+}
+
+ul {
+    padding-left: 55px;
+}
+
+
+/*images*/
+.sushi {
+    padding-left: 40px;
+    float: center;
+}
+
+.IMG_8036 {
+    height: 200px;
+    width: 40%;
+    background-color: #9ea9ff;
+    padding-left: 40px;
+}
+
+.Letterboxd {
+    height: 200px;
+    width: 40%;
+}
