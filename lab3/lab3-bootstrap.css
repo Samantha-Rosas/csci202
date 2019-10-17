@@ -1,0 +1,32 @@
+/* Navigation Bar */
+.navbar {
+    background: blue;
+}
+
+.nav-link,
+.navbar-brand {
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.nav-link {
+    margin-right: 1em;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+/* Main Banner */
+.jumbotron {
+    min-height: 700px;
+    background-image: url(images/header-bg.jpg);
+    background-size: cover;
+    color: #fff;
+}
+
+.jumbotron .container {
+    width: 40%;
+    margin: 0 auto;
+    padding-top: 14%;
+}
