@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+p {font-size: 60px;
+text-align: center;
+} 
+span { color: blue;
+}
+</style>    
+</head>    
+    
+    
+<body>
+
+<p>
+Mary has <span id = "PetCount" ></span> pets: <span id = "DogCount" ></span> dogs, and <span id = "CatCount" ></span> cat. </p> 
+
+<p> 
+Mary adopts <span>2</span> dogs. <br> 
+
+She now has <span id = "SecondDogCount" ></span> dogs and a total of <span id = "SecondPetCount" ></span>  pets.
+</p>
+
+
+<script>
+var dog = 2;
+var cat = 1;
+var pet = dog + cat;
+
+document.getElementById("PetCount").innerHTML = pet;
+document.getElementById("DogCount").innerHTML = dog;
+document.getElementById("CatCount").innerHTML = cat;
+
+document.getElementById("SecondDogCount").innerHTML = dog + 2;
+document.getElementById("SecondPetCount").innerHTML = pet + 2;
+</script>
+
+</body>
